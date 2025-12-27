@@ -53,18 +53,17 @@ export default function HeroSection() {
       </div>
 
       {/* Bottom Right SVG Placeholder */}
-      <div className="absolute bottom-0 right-0 z-1 pointer-events-none">
+      <div className="absolute bottom-0 right-0 z-1 pointer-events-none w-58 h-58 sm:w-64 sm:h-64 md:w-80 md:h-96 lg:w-[366px] lg:h-[434px]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="366"
-          height="434"
           viewBox="0 0 366 434"
           fill="none"
+          className="w-full h-full"
         >
           <path
             d="M39.0311 428.01C3.83917 354.73 -24.875 203.532 141.804 184.974C350.151 161.776 488.32 393.206 288.596 313.18C128.816 249.159 457.629 85.1423 642.007 11.1364"
             stroke="#2563EB"
-            stroke-width="24"
+            strokeWidth="24"
           />
         </svg>
       </div>
