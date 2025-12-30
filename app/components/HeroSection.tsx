@@ -1,19 +1,26 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="relative h-[90vh] min-h-[600px] w-full overflow-hidden">
-      {/* Background Image */}
-      <Image
-        src="/assests/hero1.jpg"
-        alt="Hero Background"
-        fill
-        className="object-cover"
-        priority
-      />
+    <section className="relative h-screen w-full overflow-hidden">
+      {/* Background Video */}
+      <div className="absolute inset-0 w-full h-full overflow-hidden">
+        <iframe
+          src="https://player.vimeo.com/video/1150299954?background=1&autoplay=1&muted=1&loop=1"
+          className="absolute top-1/2 left-1/2 w-full h-full -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+          style={{
+            width: "100vw",
+            height: "56.25vw",
+            minHeight: "100vh",
+            minWidth: "177.77vh",
+          }}
+          frameBorder="0"
+          allow="autoplay; fullscreen"
+          allowFullScreen
+        />
+      </div>
 
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/60" />
@@ -25,13 +32,12 @@ export default function HeroSection() {
             Consulting for Excellence
           </h1>
 
-          <p className="mx-auto mt-6 max-w-2xl text-sm sm:text-base md:text-lg text-white/90">
-            From first steps to full growth, we guide you with expert training
-            and consulting that unlock potential and move your business forward.
+          <p className="mx-auto mt-2 max-w-3xl text-sm sm:text-base md:text-xl text-white/90">
+            Integrated Digital & AI Solutions for Smarter Project Delivery
           </p>
 
           {/* CTA Buttons */}
-          <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="mt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="/contact"
               className="rounded-full bg-blue-600 px-8 py-3 text-sm sm:text-base font-semibold text-white hover:bg-blue-500 transition"

@@ -38,7 +38,7 @@ export default function ContactSection() {
 
   return (
     <section className="bg-white py-12">
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-container px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* LEFT CONTENT */}
           <div>

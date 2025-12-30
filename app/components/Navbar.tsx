@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { RxCross1, RxHamburgerMenu } from "react-icons/rx";
 
 const navLinks = [
@@ -21,13 +22,15 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 w-full z-50">
       <nav className="mx-auto max-container px-4 sm:px-6">
         <div className="mt-4 flex h-16 items-center justify-between rounded-full bg-black/40 backdrop-blur-md px-4 sm:px-6 text-white">
-
           {/* Logo */}
-          <Link
-            href="/"
-            className="rounded-full bg-cyan-300 px-4 py-1.5 text-sm sm:text-base font-bold text-black"
-          >
-            LOGO
+          <Link href="/" className="relative h-12 w-32 sm:h-14 sm:w-40 md:h-12 md:w-38  rounded-lg px-2 py-1 flex items-center justify-center">
+            <Image
+              src="/assests/ipclogo.png"
+              alt="IPEC Logo"
+              fill
+              className="object-contain p-1"
+              priority
+            />
           </Link>
 
           {/* Desktop Nav */}

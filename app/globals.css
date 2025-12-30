@@ -85,3 +85,4 @@ body {
 .body-text {
   @apply text-sm sm:text-base xl:text-lg text-black/75 leading-relaxed;
 }
+
