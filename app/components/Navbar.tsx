@@ -6,7 +6,7 @@ import Image from "next/image";
 import { RxCross1, RxHamburgerMenu } from "react-icons/rx";
 
 const navLinks = [
-  { name: "About Us", href: "/about" },
+  { name: "About Us", href: "/about-us" },
   { name: "Solutions", href: "/solutions" },
   { name: "Career", href: "/career" },
   { name: "Training", href: "/training" },
@@ -20,15 +20,15 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 w-full z-50">
-      <nav className="mx-auto max-container px-4 sm:px-6">
-        <div className="mt-4 flex h-16 items-center justify-between rounded-full bg-black/40 backdrop-blur-md px-4 sm:px-6 text-white">
+      <nav className="mx-auto max-container ">
+        <div className="mt-4 flex h-16 items-center justify-between rounded-full bg-black/40 backdrop-blur-md px-4 sm:px-4 text-white">
           {/* Logo */}
-          <Link href="/" className="relative h-12 w-32 sm:h-14 sm:w-40 md:h-12 md:w-38  rounded-lg px-2 py-1 flex items-center justify-center">
+          <Link href="/" className="relative h-10 w-30 sm:h-10 sm:w-36 md:h-10 md:w-36  rounded-lg  flex items-center justify-center">
             <Image
               src="/assests/ipclogo.png"
               alt="IPEC Logo"
               fill
-              className="object-contain p-1"
+              className="object-contain "
               priority
             />
           </Link>

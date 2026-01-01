@@ -8,19 +8,19 @@ const partners = [
     image: "/assests/construction.jpeg",
   },
   {
-    title: "⁠oil & gas",
+    title: "⁠Oil & Gas",
     image:"/assests/oil.jpeg",
   },
   {
-    title: "high tech",
+    title: "High Tech",
     image: "/assests/hightech.jpeg",
   },
   {
-    title: "property",
-    image: "/assests/gov.jpeg",
+    title: "Property",
+    image: "/assests/property.jpeg",
   },
   {
-    title: "⁠utlity & transport",
+    title: "⁠Utility & Transport",
     image: "/assests/utility.jpeg",
   },
   {

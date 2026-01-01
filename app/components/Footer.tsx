@@ -90,7 +90,7 @@ export default function Footer() {
 
           {/* BOTTOM BAR */}
           <div className="mt-14 rounded-full bg-white px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-black">
-            <p className="text-sm font-medium">All Rights Reserved © IPC</p>
+            <p className="text-sm font-medium">All Rights Reserved © IPEC</p>
 
             <div className="flex items-center gap-3">
               <SocialIcon>
