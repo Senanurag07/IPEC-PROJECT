@@ -12,7 +12,7 @@ export default function AboutIpecSection() {
           <div className="relative">
             <div className="relative overflow-hidden rounded-3xl shadow-xl">
               <Image
-                src="/assests/cards.jpg" // replace image
+                src="/assests/home.jpeg" // replace image
                 alt="IPEC Consulting"
                 width={600}
                 height={400}

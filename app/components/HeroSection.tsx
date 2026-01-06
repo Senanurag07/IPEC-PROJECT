@@ -29,12 +29,12 @@ export default function HeroSection() {
       <div className="relative z-10 flex h-full items-center">
         <div className="mx-auto max-w-7xl px-6 text-center text-white">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            Consulting for Excellence
+           Integrated Digital & AI Solutions for Smarter Project Delivery 
           </h1>
 
-          <p className="mx-auto mt-2 max-w-3xl text-sm sm:text-base md:text-xl text-white/90">
+          {/* <p className="mx-auto mt-2 max-w-3xl text-sm sm:text-base md:text-xl text-white/90">
             Integrated Digital & AI Solutions for Smarter Project Delivery
-          </p>
+          </p> */}
 
           {/* CTA Buttons */}
           <div className="mt-4 flex flex-col sm:flex-row items-center justify-center gap-4">

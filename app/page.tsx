@@ -7,6 +7,7 @@ import FullWidthCTA from './components/FullWidthCTA'
 import TestimonialsSection from './components/TestimonialsSection'
 import ContactSection from './components/ContactSection'
 import WhoWeWorkWith from './components/WhoWeWorkWith'
+import OurOfferings from './components/OurOfferings'
 
 function page() {
   return (
@@ -16,6 +17,7 @@ function page() {
       <AboutIpecSection />
       <OurServicesSection />
       <HowWeWorkSection />
+      <OurOfferings />
       <FullWidthCTA />
       <WhoWeWorkWith />
 
