@@ -38,6 +38,7 @@ export default function OurOfferings() {
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
             Our Offerings
           </h2>
+          <p className="text-black pt-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem enim aliquam consequatur?</p>
         </div>
 
         {/* Grid */}
