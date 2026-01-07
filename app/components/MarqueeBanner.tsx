@@ -5,7 +5,7 @@ import Image from "next/image";
 const marqueeImages = [
   "/assests/mapcon.png",
   "/assests/oracle.png",
-  "/assests/original.jpg",
+  "/assests/project.jpg",
   "/assests/tc.png",
 ];
 
@@ -23,9 +23,11 @@ export default function MarqueeBanner() {
               >
                 <Image
                   src={img}
-                  alt={`Marquee logo ${index}`}
+                  alt={`Partner logo ${index + 1}`}
                   fill
+                  sizes="(max-width: 640px) 160px, (max-width: 768px) 180px, 200px"
                   className="object-contain"
+                  unoptimized
                 />
               </div>
             )
@@ -42,9 +44,11 @@ export default function MarqueeBanner() {
               >
                 <Image
                   src={img}
-                  alt={`Marquee logo ${index}`}
+                  alt={`Partner logo ${index + 1}`}
                   fill
+                  sizes="(max-width: 640px) 160px, (max-width: 768px) 180px, 200px"
                   className="object-contain"
+                  unoptimized
                 />
               </div>
             )
