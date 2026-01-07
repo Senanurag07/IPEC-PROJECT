@@ -8,6 +8,7 @@ import TestimonialsSection from './components/TestimonialsSection'
 import ContactSection from './components/ContactSection'
 import WhoWeWorkWith from './components/WhoWeWorkWith'
 import OurOfferings from './components/OurOfferings'
+import MarqueeBanner from './components/MarqueeBanner'
 
 function page() {
   return (
@@ -15,6 +16,8 @@ function page() {
       {/* <HeroVideo  /> */}
       <HeroSection />
       <AboutIpecSection />
+      <MarqueeBanner />
+
       <OurServicesSection />
       <HowWeWorkSection />
       <OurOfferings />

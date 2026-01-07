@@ -31,14 +31,14 @@ const offerings = [
 
 export default function OurOfferings() {
   return (
-    <section className="bg-[#f5f5f5] py-10">
+    <section className="bg-white py-10">
       <div className="mx-auto max-w-7xl px-6">
         {/* Heading */}
         <div className="mb-10 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-            Our Offerings
+            OUR OFFERINGS
           </h2>
-          <p className="text-black pt-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem enim aliquam consequatur?</p>
+          <p className="text-black pt-4">IPEC provides all of the components needed to create the complete platform from delivering projects to maintenance of assets.</p>
         </div>
 
         {/* Grid */}
@@ -60,7 +60,7 @@ export default function OurOfferings() {
 
               {/* Text */}
               <div className="px-6 py-4 text-center">
-                <p className="text-sm sm:text-base font-semibold tracking-wide text-gray-800 uppercase">
+                <p className="text-sm sm:text-lg font-extrabold tracking-wide text-gray-800 uppercase">
                   {item.title}
                 </p>
               </div>

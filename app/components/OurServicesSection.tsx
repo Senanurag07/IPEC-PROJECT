@@ -22,7 +22,7 @@ const services = [
 
 export default function OurServicesSection() {
   return (
-    <section className="bg-white py-0">
+    <section className="bg-white py-12">
       <div className="mx-auto max-container px-6">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
 

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function AboutIpecSection() {
   return (
-    <section className="relative -mt-24 z-2 rounded-t-[80px] bg-white py-12 pb-20">
+    <section className="relative -mt-24 z-2 rounded-t-[80px] bg-white py-12 ">
       <div className="mx-auto max-container px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
           {/* LEFT – Image Card */}

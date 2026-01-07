@@ -64,41 +64,43 @@ export default function HowWeWorkSection() {
             alt="How We Work"
             width={1200}
             height={500}
-            className="h-[260px] sm:h-[320px] md:h-[400px] w-full object-cover"
+            className="h-65 sm:h-80 md:h-100 w-full object-cover"
           />
         </div>
 
-        {/* STEPS */}
-        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 relative">
-
-          {/* DOTTED LINE (Desktop only) */}
-          <div className="hidden lg:block absolute top-6 left-0 w-full border-t border-dashed border-blue-200" />
-
-          {steps.map((step, index) => (
-            <div key={index} className="relative text-center lg:text-left">
-              
-              {/* Number */}
-              <div className="flex justify-center lg:justify-start">
-                <div className="relative text-4xl font-bold text-black">
-                  {step.number}
-                  <span
-                    className={`absolute -bottom-1 left-0 h-2 w-full rounded-full ${step.color}`}
-                  />
-                </div>
-              </div>
-
-              <h3 className="mt-6 text-lg font-semibold text-black">
-                {step.title}
-              </h3>
-
-              <p className="mt-2 text-sm text-black leading-relaxed">
-                {step.description}
-              </p>
-            </div>
-          ))}
-        </div>
 
       </div>
     </section>
   );
 }
+
+
+        // {/* STEPS */}
+        // <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 relative">
+
+        //   {/* DOTTED LINE (Desktop only) */}
+        //   <div className="hidden lg:block absolute top-6 left-0 w-full border-t border-dashed border-blue-200" />
+
+        //   {steps.map((step, index) => (
+        //     <div key={index} className="relative text-center lg:text-left">
+              
+        //       {/* Number */}
+        //       <div className="flex justify-center lg:justify-start">
+        //         <div className="relative text-4xl font-bold text-black">
+        //           {step.number}
+        //           <span
+        //             className={`absolute -bottom-1 left-0 h-2 w-full rounded-full ${step.color}`}
+        //           />
+        //         </div>
+        //       </div>
+
+        //       <h3 className="mt-6 text-lg font-semibold text-black">
+        //         {step.title}
+        //       </h3>
+
+        //       <p className="mt-2 text-sm text-black leading-relaxed">
+        //         {step.description}
+        //       </p>
+        //     </div>
+        //   ))}
+        // </div>
