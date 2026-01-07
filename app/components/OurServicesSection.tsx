@@ -28,7 +28,7 @@ export default function OurServicesSection() {
 
           {/* LEFT CONTENT */}
           <div>
-            <span className="inline-block rounded-full border text-black border-blue-200 px-4 py-1 text-sm font-medium text-blue-600">
+            <span className="inline-block rounded-full border  border-blue-200 px-4 py-1 text-sm font-medium text-blue-600">
               Reach Us
             </span>
 
