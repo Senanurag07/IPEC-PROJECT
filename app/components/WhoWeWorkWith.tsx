@@ -5,7 +5,7 @@ import Image from "next/image";
 const partners = [
   {
     title: "Construction & Engineering",
-    image: "/assests/property.jpeg",
+    image: "/assests/gov.jpeg",
   },
   {
     title: "Oil & Gas",
