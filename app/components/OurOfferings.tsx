@@ -5,7 +5,7 @@ import Image from "next/image";
 const offerings = [
   {
     title: "PROJECT PLANNING & CONTROL SOFTWARE’S",
-    image: "/assests/offering1.jpeg",
+    image: "/assests/offering6.jpeg",
   },
   {
     title: "MANAGED PROJECT PLANNING & CONTROL SERVICES",
@@ -13,15 +13,15 @@ const offerings = [
   },
   {
     title: "TRAINING & CERTIFICATION",
-    image: "/assests/offering3.jpeg",
+    image: "/assests/offering1.jpeg",
   },
   {
     title: "SYSTEM INTEGRATION & DEVELOPMENT",
-    image: "/assests/offering4.jpeg",
+    image: "/assests/offering5.jpeg",
   },
   {
     title: "COMPUTERISED MAINTENANCE MANAGEMENT SYSTEM (CMMS)",
-    image: "/assests/offering5.jpeg",
+    image: "/assests/offering4.jpeg",
   },
   {
     title: "PROFESSIONAL SERVICES & PREMIER SUPPORT SERVICES",
@@ -38,7 +38,8 @@ export default function OurOfferings() {
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
             OUR OFFERINGS
           </h2>
-          <p className="text-black pt-4">IPEC provides all of the components needed to create the complete platform from delivering projects to maintenance of assets.</p>
+          <p className="text-black pt-4">IPEC delivers an integrated portfolio of project management and digital solutions to support effective
+project planning, execution, and control.</p>
         </div>
 
         {/* Grid */}

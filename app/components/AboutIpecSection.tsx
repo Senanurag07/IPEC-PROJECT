@@ -20,10 +20,10 @@ export default function AboutIpecSection() {
               />
 
               {/* Top Badge */}
-              <div className="absolute top-4 left-4 rounded-full text-black bg-white px-4 py-2 text-sm font-semibold shadow">
+              {/* <div className="absolute top-4 left-4 rounded-full text-black bg-white px-4 py-2 text-sm font-semibold shadow">
                 <span className="text-blue-600  font-bold">+72%</span> Candidate
                 Growth
-              </div>
+              </div> */}
 
               {/* Bottom Badge */}
               <div className="absolute bottom-4 left-4 flex items-center gap-3 rounded-xl bg-white px-4 py-3 shadow">
@@ -56,10 +56,10 @@ export default function AboutIpecSection() {
                     />
                   </div>
                 </div>
-                <div className="text-sm">
+                {/* <div className="text-sm">
                   <p className="font-semibold text-black">Reached</p>
                   <p className="text-gray-500">2.2M Users</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

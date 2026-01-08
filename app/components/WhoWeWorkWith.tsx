@@ -5,7 +5,7 @@ import Image from "next/image";
 const partners = [
   {
     title: "Construction & Engineering",
-    image: "/assests/construction.jpeg",
+    image: "/assests/property.jpeg",
   },
   {
     title: "Oil & Gas",
@@ -17,15 +17,15 @@ const partners = [
   },
   {
     title: "Property",
-    image: "/assests/property.jpeg",
-  },
-  {
-    title: "Utility & Transport",
     image: "/assests/utility.jpeg",
   },
   {
+    title: "Utility & Transport",
+    image: "/assests/property.jpeg",
+  },
+  {
     title: "Government",
-    image: "/assests/gov.jpeg",
+    image: "/assests/construction.jpeg",
   },
 ];
 
@@ -40,8 +40,8 @@ export default function WhoWeWorkWith() {
             Who We Work With
           </h2>
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-            We collaborate with organizations across industries to deliver
-            integrated project and asset management solutions.
+            We work with organizations across industries to deliver integrated project management solutions
+that drive better project outcomes.
           </p>
         </div>
 
