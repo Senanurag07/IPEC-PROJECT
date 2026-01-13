@@ -7,27 +7,42 @@ import { RxCross1, RxHamburgerMenu } from "react-icons/rx";
 import { FaChevronDown } from "react-icons/fa";
 
 const navLinks = [
-  { name: "About Us", href: "/about-us" },
-
   {
-    name: "Solutions",
-    href: "/solutions",
+    name: "About Us",
+    href: "/about-us",
     subLinks: [
-      { name: "Solutions Real", href: "/Project-cycle" },
-      { name: "System Development", href: "/Systems-Development" },
-      { name: "Turbo", href: "/Turbo-Chart" },
+      { name: "Message From COO", href: "/Project-Sucess" },
+      { name: "Our Partners", href: "/Our-Partners" },
     ],
   },
 
   {
-    name: "Services",
-    href: "/services",
-  
+    name: "Solutions",
+    href: "/",
+    subLinks: [
+      { name: "Oracle Primavera", href: "/Project-cycle" },
+      {
+        name: "Turbo Chart Linear Project Software",
+        href: "/Systems-Development",
+      },
+      { name: "Systems Development", href: "/Systems-Development" },
+      { name: "ProjectNow  Integration (CIP)", href: "Systems-Development" },
+      { name: "ProjectNow Dashboard (CDP)", href: "Systems-Development" },
+      { name: "Mapcon CMMS", href: "Systems-Development" },
+    ],
   },
 
   {
     name: "Training",
-    href: "/training",
+    href: "/Training",
+  },
+  {
+    name: "Events",
+    href: "/Event",
+  },
+  {
+    name: "Services",
+    href: "/",
     subLinks: [
       { name: "Primavera Premier Support", href: "Premier-Support" },
       { name: "Planning & Scheduling", href: "/Planning-Scheduling" },
@@ -35,14 +50,15 @@ const navLinks = [
   },
 
   { name: "Career", href: "/career" },
-  { name: "Events", href: "/events" },
-  { name: "Contact", href: "/Project-Sucess" },
+  { name: "Resources", href: "/Project-cycle" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-  const [activeMobileDropdown, setActiveMobileDropdown] =
-    useState<string | null>(null);
+  const [activeMobileDropdown, setActiveMobileDropdown] = useState<
+    string | null
+  >(null);
 
   const toggleMobileDropdown = (name: string) => {
     setActiveMobileDropdown(activeMobileDropdown === name ? null : name);
@@ -52,7 +68,6 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 w-full z-50">
       <nav className="mx-auto max-container">
         <div className="mt-4 flex h-16 items-center justify-between rounded-full bg-black/40 backdrop-blur-md px-4 text-white">
-
           {/* Logo */}
           <Link href="/" className="relative h-10 w-36 flex items-center">
             <Image
@@ -68,7 +83,6 @@ export default function Navbar() {
           <ul className="hidden lg:flex items-center gap-8 text-sm font-medium">
             {navLinks.map((link) => (
               <li key={link.name} className="relative group">
-
                 {/* Nav Item */}
                 <Link
                   href={link.href}
