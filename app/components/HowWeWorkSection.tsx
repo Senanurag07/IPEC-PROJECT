@@ -51,16 +51,18 @@ export default function HowWeWorkSection() {
           </div>
 
           <p className="text-black leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam,
+           At IPEC Project Systems Sdn Bhd, we take a structured and collaborative
+approach to deliver practical project management and digital solutions. By understanding our clients’
+objectives and challenges, we design scalable, best-practice solutions and work closely with
+stakeholders across the project lifecycle to improve visibility, manage risks, and deliver consistent
+project outcomes.
           </p>
         </div>
 
         {/* IMAGE */}
         <div className="mt-12 overflow-hidden rounded-3xl">
           <Image
-            src="/assests/hero1.jpg" // replace image
+            src="/assests/how-we-work.jpeg" // replace image
             alt="How We Work"
             width={1200}
             height={500}

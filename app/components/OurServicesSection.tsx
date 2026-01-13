@@ -37,8 +37,8 @@ export default function OurServicesSection() {
             </h2>
 
             <p className="mt-4 text-gray-600 leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt.
+             We offer end-to-end project management and Primavera-based project controls services,
+from consulting and implementation to training, support, and outsourced planning.
             </p>
           </div>
 

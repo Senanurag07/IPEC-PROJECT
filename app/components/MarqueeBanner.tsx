@@ -3,9 +3,8 @@
 import Image from "next/image";
 
 const marqueeImages = [
-  "/assests/mapcon.png",
-  "/assests/oracle.png",
-  "/assests/project.jpg",
+  "/assests/oracle.jpg",
+  "/assests/cdp.jpg",
   "/assests/tc.png",
 ];
 
