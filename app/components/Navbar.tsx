@@ -18,7 +18,7 @@ const navLinks = [
 
   {
     name: "Solutions",
-    href: "/",
+    href: "/Project-cycle",
     subLinks: [
       { name: "Oracle Primavera", href: "/Project-cycle" },
       {
@@ -50,7 +50,6 @@ const navLinks = [
   },
 
   { name: "Career", href: "/career" },
-  { name: "Resources", href: "/Project-cycle" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -91,7 +90,7 @@ export default function Navbar() {
                   <span className="flex items-center">{link.name}</span>
 
                   {link.subLinks && (
-                    <FaChevronDown className="text-[10px] translate-y-[1px]" />
+                    <FaChevronDown className="text-[10px] translate-y-px" />
                   )}
                 </Link>
 

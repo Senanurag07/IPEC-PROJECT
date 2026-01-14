@@ -8,6 +8,7 @@ import {
   FaLinkedinIn,
   FaXTwitter,
 } from "react-icons/fa6";
+import { FiMail, FiMapPin, FiPhone } from "react-icons/fi";
 
 export default function Footer() {
   return (
@@ -77,15 +78,35 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* CONTACT */}
-            <div>
-              <h4 className="font-semibold mb-4">Contact Us</h4>
-              <ul className="space-y-2 text-sm text-white/80">
-                <li>+00 32162133216</li>
-                <li>ABCD@gmail.com</li>
-                <li>Address Details</li>
-              </ul>
-            </div>
+    <div>
+  <h4 className="font-semibold mb-4">Contact Us</h4>
+
+  <ul className="space-y-3 text-sm text-white/80">
+    <li className="flex items-start gap-3">
+      <FiPhone className="mt-0.5 text-white/70" />
+      <span>+603-7956 5688</span>
+    </li>
+
+    <li className="flex items-start gap-3">
+      <FiPhone className="mt-0.5 text-white/70" />
+      <span>+603-7956 6688</span>
+    </li>
+
+    <li className="flex items-start gap-3">
+      <FiMail className="mt-0.5 text-white/70" />
+      <span>sales@ipecsystems.com.my</span>
+    </li>
+
+    <li className="flex items-start gap-3">
+      <FiMapPin  className="mt-1 text-white/70" />
+      <span>
+        IPEC Project Systems Sdn Bhd, 3A13, Unit 13, Floor 3A, Block F,
+        Phileo Damansara 1, Jalan 16/11, Off Jalan Damansara,
+        46350 Petaling Jaya, Selangor, Malaysia
+      </span>
+    </li>
+  </ul>
+</div>
           </div>
 
           {/* BOTTOM BAR */}
