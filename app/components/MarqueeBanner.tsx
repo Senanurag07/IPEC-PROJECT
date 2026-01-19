@@ -5,7 +5,9 @@ import Image from "next/image";
 const marqueeImages = [
   "/assests/oracle.jpg",
   "/assests/cdp.jpg",
+  "/assests/oracle.png",
   "/assests/tc.png",
+  "/assests/aace.jpeg",
 ];
 
 export default function MarqueeBanner() {

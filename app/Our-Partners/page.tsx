@@ -8,7 +8,7 @@ function page() {
     <HeroSection 
         title="Our Partners"
         subtitle="Collaborating for Excellence: Our Trusted Partners"
-        bgImage="/assests/hero1.jpg"  />
+        bgImage="/assests/our-partners.jpeg"  />
         <SolutionsShowcase />
     </main>
   )

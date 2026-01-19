@@ -20,10 +20,10 @@ const navLinks = [
     name: "Solutions",
     href: "/Project-cycle",
     subLinks: [
-      { name: "Oracle Primavera", href: "/Project-cycle" },
+      { name: "Oracle Primavera", href: "/Oracle-Primavera" },
       {
         name: "Turbo Chart Linear Project Software",
-        href: "/Systems-Development",
+        href: "/Turbo-Chart",
       },
       { name: "Systems Development", href: "/Systems-Development" },
       { name: "ProjectNow  Integration (CIP)", href: "Systems-Development" },
@@ -49,7 +49,7 @@ const navLinks = [
     ],
   },
 
-  { name: "Career", href: "/career" },
+  { name: "Career", href: "/Career" },
   { name: "Contact", href: "/contact" },
 ];
 

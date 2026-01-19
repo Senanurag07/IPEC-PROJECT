@@ -26,41 +26,7 @@ export default function AboutIpecSection() {
               </div> */}
 
               {/* Bottom Badge */}
-              <div className="absolute bottom-4 left-4 flex items-center gap-3 rounded-xl bg-white px-4 py-3 shadow">
-                <div className="flex -space-x-2">
-                  <div className="h-8 w-8 rounded-full overflow-hidden border-2 border-white">
-                    <Image
-                      src="/assests/cards.jpg"
-                      alt="User 1"
-                      width={32}
-                      height={32}
-                      className="object-cover w-full h-full"
-                    />
-                  </div>
-                  <div className="h-8 w-8 rounded-full overflow-hidden border-2 border-white">
-                    <Image
-                      src="/assests/cards.jpg"
-                      alt="User 2"
-                      width={32}
-                      height={32}
-                      className="object-cover w-full h-full"
-                    />
-                  </div>
-                  <div className="h-8 w-8 rounded-full overflow-hidden border-2 border-white">
-                    <Image
-                      src="/assests/cards.jpg"
-                      alt="User 3"
-                      width={32}
-                      height={32}
-                      className="object-cover w-full h-full"
-                    />
-                  </div>
-                </div>
-                {/* <div className="text-sm">
-                  <p className="font-semibold text-black">Reached</p>
-                  <p className="text-gray-500">2.2M Users</p>
-                </div> */}
-              </div>
+        
             </div>
           </div>
 

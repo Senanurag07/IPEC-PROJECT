@@ -22,7 +22,7 @@ export default function HeroSection({
         alt={title}
         fill
         priority
-        className="object-cover"
+        className="object-fit"
       />
 
       {/* Dark Overlay */}

@@ -16,15 +16,15 @@ const partners = [
     image: "/assests/hightech.jpeg",
   },
   {
-    title: "Property",
+    title: "Utilities & Power",
     image: "/assests/utility.jpeg",
   },
   {
-    title: "Utility & Transport",
+    title: "Property",
     image: "/assests/property.jpeg",
   },
   {
-    title: "Government",
+    title: "Transportation",
     image: "/assests/construction.jpeg",
   },
 ];

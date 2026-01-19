@@ -8,11 +8,11 @@ const offerings = [
     image: "/assests/offering6.jpeg",
   },
   {
-    title: "MANAGED PROJECT PLANNING & CONTROL SERVICES",
+    title: "Consolidated Dashboard Platform(CDP)",
     image: "/assests/offering2.jpeg",
   },
   {
-    title: "TRAINING & CERTIFICATION",
+    title: "Construction Colloboration& Document Management Solution",
     image: "/assests/offering1.jpeg",
   },
   {
@@ -20,12 +20,12 @@ const offerings = [
     image: "/assests/offering5.jpeg",
   },
   {
-    title: "COMPUTERISED MAINTENANCE MANAGEMENT SYSTEM (CMMS)",
+    title: "PROFESSIONAL SERVICES & PREMIER SUPPORT SERVICES",
     image: "/assests/offering4.jpeg",
   },
   {
-    title: "PROFESSIONAL SERVICES & PREMIER SUPPORT SERVICES",
-    image: "/assests/offering6.jpeg",
+    title: "TRAINING & CERTIFICATION    (IMAGE NOT PROVIDED FOR THIS SECTION)",
+    image: "/assests/offering6.jg",
   },
 ];
 

@@ -36,16 +36,7 @@ export default function SolutionsShowcase() {
       imageAlt: "Oracle Partner",
       imageFirst: true,
     },
-        {
-      id: "Executive Portlets",
-      title: "Executive Portlets",
-      paragraphs: [
-        `Linear Project Software Pty Ltd is the developer for Turbo Chart software for generating Time Location charts that are used to visualise linear project schedules. IPEC Project Systems Sdn Bhd is the partner for Turbo Chart in Malaysia & Philippines.`,
-      ],
-      imageSrc: "/assests/linear.png",
-      imageAlt: "Turbo Chart",
-      imageFirst: false,
-    },
+  
   ];
   return (
     <section className="w-full bg-white py-20">
@@ -79,9 +70,7 @@ export default function SolutionsShowcase() {
                     ))}
                   </div>
 
-                  <button className="mt-8 rounded-full bg-blue-600 px-8 py-3 text-sm font-semibold text-white transition hover:bg-blue-700">
-                    View More
-                  </button>
+         
                 </div>
               </>
             ) : (
