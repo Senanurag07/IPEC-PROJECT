@@ -6,7 +6,7 @@ function page() {
     <main>
       <HeroSection
       title='career '
-      subtitle='lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      subtitle=''
       bgImage='/assests/about-us.jpeg'
       />
       <div className="w-full bg-white  py-2 sm:py-12 ">
