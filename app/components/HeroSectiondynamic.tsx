@@ -14,7 +14,7 @@ export default function HeroSection({
   bgImage,
 }: HeroSectionProps) {
   return (
-    <section className="relative h-[60vh] sm:h-[70vh] md:h-[80vh] w-full overflow-hidden">
+    <section className="relative h-[60vh] sm:h-[70vh] md:h-[80vh] w-full ">
       
       {/* Background Image */}
       <Image

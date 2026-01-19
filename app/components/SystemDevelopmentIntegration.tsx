@@ -2,7 +2,7 @@
 
 export default function SystemDevelopmentIntegration() {
   return (
-    <section className="bg-gray-100 rounded-t-[80px] py-16">
+    <section className="bg-gray-100  rounded-t-[80px] py-16">
       <div className="max-container mx-auto px-4">
         <div className="bg-white rounded-[40px] px-6 sm:px-10 py-14">
 

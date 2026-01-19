@@ -83,6 +83,28 @@ const antiCorruptionRules = [
     desc: "Embrace diversity and inclusivity. Refrain from any form of discrimination, harassment, or victimization.",
   },
 ];
+const shareholdersRules = [
+  {
+    title: "Compliance with Laws",
+    desc: "Adhere to all applicable laws and regulations, both nationally and internationally, in the course of employment.",
+  },
+  {
+    title: "Prohibition of Bribery",
+    desc: "Do not offer, promise, give, or accept any form of bribe, kickback, or improper advantage in business dealings.",
+  },
+  {
+    title: "Gifts and Hospitality",
+    desc: "Ensure that any gifts, hospitality, or entertainment offered or received are reasonable, transparent, and compliant with company policies.",
+  },
+  {
+    title: "Confidentiality",
+    desc: "Safeguard confidential information and trade secrets of the company and its clients. Avoid unauthorized disclosure.",
+  },
+  {
+    title: "Workplace Equality",
+    desc: "Embrace diversity and inclusivity. Refrain from any form of discrimination, harassment, or victimization.",
+  },
+];
 
 function page() {
   return (
@@ -141,6 +163,36 @@ function page() {
 
         {/* PREMIUM CENTER-THICK BORDER */}
         {index !== employeeRules.length - 1 && (
+          <div className="absolute left-0 bottom-0 w-full h-[2px] bg-gradient-to-r from-transparent via-gray-300 to-transparent" />
+        )}
+
+      </div>
+    ))}
+
+  </div>
+
+</div>
+<div className="max-container py-4">
+
+  <h2 className="text-3xl md:text-4xl font-bold mb-12">
+    For ShareHolders:
+  </h2>
+
+  <div className="space-y-10">
+
+    {shareholdersRules.map((item, index) => (
+      <div key={index} className="relative pb-8">
+
+        <h4 className="text-xl font-semibold mb-2">
+          {item.title}:
+        </h4>
+
+        <p className="text-gray-700 leading-relaxed max-w-4xl">
+          {item.desc}
+        </p>
+
+        {/* CENTER-THICK / EDGE-THIN BORDER */}
+        {index !== partnerRules.length - 1 && (
           <div className="absolute left-0 bottom-0 w-full h-[2px] bg-gradient-to-r from-transparent via-gray-300 to-transparent" />
         )}
 
