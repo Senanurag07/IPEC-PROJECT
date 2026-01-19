@@ -24,8 +24,8 @@ const offerings = [
     image: "/assests/offering4.jpeg",
   },
   {
-    title: "TRAINING & CERTIFICATION    (IMAGE NOT PROVIDED FOR THIS SECTION)",
-    image: "/assests/offering6.jg",
+    title: "TRAINING & CERTIFICATION ",
+    image: "/assests/training.jpeg",
   },
 ];
 

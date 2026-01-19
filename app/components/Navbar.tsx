@@ -17,6 +17,7 @@ const navLinks = [
     subLinks: [
       { name: "Message From COO", href: "/Project-Sucess" },
       { name: "Our Partners", href: "/Our-Partners" },
+      { name: "Code of Conduct for Employees, Shareholders, and Partners", href: "/code-of-conduct-for-employees-shareholders-and-partners" },
     ],
   },
 

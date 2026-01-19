@@ -39,7 +39,6 @@ export default function HeroSection({
               text-3xl
               sm:text-4xl
               md:text-5xl
-              lg:text-6xl
             "
           >
             {title}
