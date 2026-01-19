@@ -7,6 +7,10 @@ import { RxCross1, RxHamburgerMenu } from "react-icons/rx";
 import { FaChevronDown } from "react-icons/fa";
 
 const navLinks = [
+   {
+    name: "Home",
+    href: "/",
+  },
   {
     name: "About Us",
     href: "/about-us",
