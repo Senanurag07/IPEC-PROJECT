@@ -6,12 +6,14 @@ interface HeroSectionProps {
   title: string;
   subtitle?: string;
   bgImage: string;
+  doesblackOverlay?: boolean;
 }
 
 export default function HeroSection({
   title,
   subtitle,
   bgImage,
+  doesblackOverlay = true,
 }: HeroSectionProps) {
   return (
     <section className="relative h-[60vh] sm:h-[70vh] md:h-[80vh] w-full ">
@@ -26,7 +28,7 @@ export default function HeroSection({
       />
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/65" />
+      {doesblackOverlay && <div className="absolute inset-0 bg-black/65" />}
 
       {/* Soft gradient */}
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />

@@ -8,6 +8,7 @@ const marqueeImages = [
   "/assests/oracle.png",
   "/assests/tc.png",
   "/assests/aace.jpeg",
+  "/assests/projectnowintegration.jpeg",
 ];
 
 export default function MarqueeBanner() {
