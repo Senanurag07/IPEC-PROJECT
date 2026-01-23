@@ -64,7 +64,7 @@ const testimonials = [
   },
 ];
 
-export default function TestimonialsSection() {
+export default function TestimonialsSection({data}:{data?:{name:string;role:string;message:string;avatar:string}[]}) {
   const [emblaRef] = useEmblaCarousel(
     {
       loop: false,
@@ -76,6 +76,8 @@ export default function TestimonialsSection() {
   const [selectedTestimonial, setSelectedTestimonial] = useState<number | null>(
     null
   );
+
+
 
   const truncateText = (text: string, maxLength: number = 150) => {
     if (text.length <= maxLength) return text;
@@ -95,6 +97,9 @@ export default function TestimonialsSection() {
       document.body.style.overflow = "unset";
     };
   }, [selectedTestimonial]);
+
+
+  const testimonialsData = data || testimonials;
 
   return (
     <section className="bg-white py-6">
@@ -118,7 +123,7 @@ export default function TestimonialsSection() {
         {/* Embla */}
         <div className="mt-10 overflow-hidden" ref={emblaRef}>
           <div className="flex gap-6">
-            {testimonials.map((item, index) => (
+            {testimonialsData.map((item, index) => (
               <div
                 key={index}
                 className="min-w-[85%] sm:min-w-[60%] md:min-w-[45%] lg:min-w-[32%] pt-6"

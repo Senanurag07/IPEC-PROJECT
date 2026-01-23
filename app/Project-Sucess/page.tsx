@@ -8,7 +8,8 @@ function page() {
       <HeroSection  
       title="Driving Project Sucess"
       subtitle="Your trusted Oracle Primavera support partner"
-      bgImage="/assests/hero1.jpg"
+      bgImage="/assests/message-from-coo.jpeg"
+      doesblackOverlay={false}
       />    
       <WelcomeIPECSection />
     </main>

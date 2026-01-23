@@ -110,9 +110,10 @@ function page() {
   return (
     <main>
       <HeroSection
+      doesblackOverlay={false}
       title="Code of Conduct for Employees, Shareholders, and Partners"
         subtitle=""
-        bgImage='/assests/hero1.jpg'
+        bgImage='/assests/code-of-conduct.jpeg'
         />
         <div className="w-full bg-white py-12">
   <div className="max-container ">
