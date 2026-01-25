@@ -8,7 +8,7 @@ function page() {
         <HeroSection
         title="Systems Development"
         subtitle="Custom project management system development and integration services tailored to your unique business needs."
-        bgImage="/assests/hero1.jpg"
+        bgImage="/assests/project-cdp.jpeg"
       />
       <SystemDevelopmentIntegration />
     </main>

@@ -29,7 +29,7 @@ function page() {
 
 
         <div className="h-full w-full absolute inset-0 top-0 left-0 " >
-          <Image src={'/assests/aboutheroimage.jpeg'} className="object-cover object-contain" alt="about-hero-image" fill />
+          <Image src={'/assests/about-us-hero.jpeg'} className="object-cover object-contain" alt="about-hero-image" fill />
         </div>
         <div className="absolute inset-0 bg-black/60" />
 
@@ -53,7 +53,7 @@ function page() {
             </button>
 
             <button className="flex items-center justify-center gap-2 text-white/90 font-medium w-full sm:w-auto">
-              <span className="text-lg text-white">📞</span>
+              <span className="text-lg text-white bg-white rounded-full px-1">📞</span>
               Schedule a Free Call
             </button>
           </div>
@@ -226,7 +226,7 @@ function page() {
       </div>
 
       <WhyChooseUs />
-      <TestimonialsSection data={data} />
+      <TestimonialsSection title={true} subtitle={true} is_button={false} data={data} />
 
 
 

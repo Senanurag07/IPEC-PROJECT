@@ -64,7 +64,7 @@ const testimonials = [
   },
 ];
 
-export default function TestimonialsSection({data}:{data?:{name:string;role:string;message:string;avatar:string}[]}) {
+export default function TestimonialsSection({data,title,subtitle,is_button = true}:{data?:{name:string;role:string;message:string;avatar:string}[],title?:boolean;subtitle?:boolean;is_button?:boolean}) {
   const [emblaRef] = useEmblaCarousel(
     {
       loop: false,
@@ -76,8 +76,6 @@ export default function TestimonialsSection({data}:{data?:{name:string;role:stri
   const [selectedTestimonial, setSelectedTestimonial] = useState<number | null>(
     null
   );
-
-
 
   const truncateText = (text: string, maxLength: number = 150) => {
     if (text.length <= maxLength) return text;
@@ -106,17 +104,16 @@ export default function TestimonialsSection({data}:{data?:{name:string;role:stri
       <div className="px-6">
         {/* Header */}
         <div className="text-center max-container mx-auto">
-          <span className="inline-block rounded-full border border-blue-200 px-4 py-1 text-sm font-medium text-blue-600">
+          { is_button && <span className="inline-block rounded-full border border-blue-200 px-4 py-1 text-sm font-medium text-blue-600">
             Reviews
-          </span>
+          </span>}
 
           <h2 className="mt-4 text-3xl sm:text-4xl font-bold text-black">
-            Client Testimonials
+            { title ? "WHAT PEOPLE SAY ABOUT US" : "Client Testimonials" }
           </h2>
 
           <p className="mt-4 text-black">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore.
+            { subtitle ? "" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore." }
           </p>
         </div>
 
@@ -180,8 +177,8 @@ export default function TestimonialsSection({data}:{data?:{name:string;role:stri
                 <div className="flex items-center gap-4">
                   <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-blue-600">
                     <Image
-                      src={testimonials[selectedTestimonial].avatar}
-                      alt={testimonials[selectedTestimonial].name}
+                      src={testimonialsData[selectedTestimonial].avatar}
+                      alt={testimonialsData[selectedTestimonial].name}
                       width={56}
                       height={56}
                       className="object-cover w-full h-full"
@@ -189,10 +186,10 @@ export default function TestimonialsSection({data}:{data?:{name:string;role:stri
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-blue-600">
-                      {testimonials[selectedTestimonial].name}
+                      {testimonialsData[selectedTestimonial].name}
                     </h3>
                     <p className="text-sm font-medium text-black">
-                      {testimonials[selectedTestimonial].role}
+                      {testimonialsData[selectedTestimonial].role}
                     </p>
                   </div>
                 </div>
@@ -219,7 +216,7 @@ export default function TestimonialsSection({data}:{data?:{name:string;role:stri
               {/* Modal Content - 70% visible with scroll */}
               <div className="p-6 max-h-[280px] overflow-y-auto">
                 <p className="text-black text-base leading-relaxed">
-                  {testimonials[selectedTestimonial].message}
+                  {testimonialsData[selectedTestimonial].message}
                 </p>
               </div>
             </div>

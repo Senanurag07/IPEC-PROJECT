@@ -18,7 +18,7 @@ function page() {
         <div className="max-container mx-auto px-4">
           <div className="relative w-full overflow-hidden rounded-2xl sm:rounded-3xl lg:rounded-[40px] shadow-lg">
             <Image
-              src="/assests/stages.png"
+              src="/assests/solutions-page-svg.jpeg"
               alt="Project Cycle"
               width={1920}
               height={1080}

@@ -30,10 +30,10 @@ const navLinks = [
         name: "Turbo Chart Linear Project Software",
         href: "/Turbo-Chart",
       },
-      { name: "Systems Development", href: "/Systems-Development" },
       { name: "ProjectNow  Integration (CIP)", href: "Systems-Development" },
       { name: "ProjectNow Dashboard (CDP)", href: "Systems-Development" },
-      { name: "Mapcon CMMS", href: "Systems-Development" },
+      { name: "Systems Development", href: "/Systems-Development" },
+      // { name: "Mapcon CMMS", href: "Systems-Development" },
     ],
   },
 

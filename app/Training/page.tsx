@@ -12,7 +12,7 @@ function page() {
       <HeroSection
         title="Training"
         subtitle="Your trusted Oracle Primavera support partner"
-        bgImage="/assests/hero1.jpg"
+        bgImage="/assests/training-hero.jpeg"
       />
 
       {/* CONTENT SECTION */}
