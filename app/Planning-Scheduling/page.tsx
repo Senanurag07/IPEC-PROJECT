@@ -12,7 +12,7 @@ function page() {
       <HeroSection
         title="Planning & Scheduling"
         subtitle="Your trusted Oracle Primavera support partner delivering end-to-end technical and functional support for project-driven organizations."
-        bgImage="/assests/graph.jpg"
+        bgImage="/assests/planning-hero.jpeg"
       />
       <PlanningAndScheduling />
       <div className="bg-gray-100">

@@ -17,7 +17,7 @@ function page() {
       <HeroSection
       title="Oracle Primavera"
         subtitle="Comprehensive Project Portfolio Management Solutions for Successful Project Delivery"
-        bgImage="/assests/hero1.jpg"
+        bgImage="/assests/oracle-page-hero.jpeg"
         />  
         <div className="max-container py-16">
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">

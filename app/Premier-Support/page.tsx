@@ -10,7 +10,7 @@ function page() {
       <HeroSection 
       title="Primavera Premier Support"
       subtitle='Your trusted Oracle Primavera support partner delivering end-to-end technical and functional support for project-driven organizations.'
-      bgImage='/assests/hero1.jpg'
+      bgImage='/assests/premier-support.jpeg'
       />
       <PrimaveraSupportServices />
       <WhyChooseUs />

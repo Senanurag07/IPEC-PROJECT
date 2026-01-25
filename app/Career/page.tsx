@@ -7,7 +7,7 @@ function page() {
       <HeroSection
       title='career '
       subtitle=''
-      bgImage='/assests/about-us.jpeg'
+      bgImage='/assests/career-hero.jpeg'
       />
       <div className="w-full bg-white  py-2 sm:py-12 ">
   <div className="max-container mx-auto px-4 sm:px-6">
@@ -142,10 +142,10 @@ function page() {
       {/* IMAGE */}
       <div className="w-full">
         <div className="w-full h-[280px] sm:h-[360px] md:h-[420px] lg:h-[460px] rounded-2xl overflow-hidden">
-          <img
+          {/* <img
             src="/assests/careeimg.jpg"
             className="w-full h-full object-cover"
-          />
+          /> */}
         </div>
       </div>
 

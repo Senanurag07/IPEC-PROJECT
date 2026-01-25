@@ -9,7 +9,7 @@ function page() {
       <HeroSection
         title="Event"
         subtitle="Your trusted Oracle Primavera support partner"
-        bgImage="/assests/hero1.jpg"
+        bgImage="/assests/event-hero.jpeg"
       />
       <div className="bg-white max-container py-12 shadow-xl">
         <EventGallery

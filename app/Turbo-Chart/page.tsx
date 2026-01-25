@@ -10,7 +10,7 @@ function page() {
         <HeroSection
         title="Turbo Chart Linear Project Software"
         subtitle="Advanced Data Visualization and Reporting for Oracle Primavera P6 Users"      
-        bgImage="/assests/hero1.jpg"
+        bgImage="/assests/turbo-chart-hero.jpeg"
         />
         <TurboChartSection  />
         <SampleChartSection />
